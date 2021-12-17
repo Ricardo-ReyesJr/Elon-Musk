@@ -1,0 +1,24 @@
+body {
+  font-family: system-ui;
+  background: #cdf4df;
+  color: #000000;
+  text-align: center;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  justify-content: center;
+  position: relative;
+  min-width: 250px;
+  box-shadow: 5px 5px #c8d9bf;
+}
+#tribute-info {
+  display: grid;
+  grid-template-columns: center;
+  text-align: justify;
+  justify-content: center;
+}
+#tribute-link {
+  text-decoration: none;
+  color: black;
+}
