@@ -4,21 +4,46 @@ body {
   color: #000000;
   text-align: center;
 }
-#image {
-  display: block;
-  max-width: 100%;
-  justify-content: center;
-  position: relative;
-  min-width: 250px;
-  box-shadow: 5px 5px #c8d9bf;
+header {
+  display: flex;
+  justify-content: space-evenly;
 }
-#tribute-info {
+.img-div { 
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  display: block;
+  max-width: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+  box-shadow: 5px 5px gray;
+  border: red solid 1px;
+}
+.tribute-info {
   display: grid;
   grid-template-columns: center;
   text-align: justify;
   justify-content: center;
 }
-#tribute-link {
+.tribute-link {
   text-decoration: none;
   color: black;
+}
+.btn {
+  background-color: aquamarine;
+  padding: 10px;
+  border: red solid 1px;
+  box-shadow: 5px 5px gray;
+  margin-bottom: 50px;
+
+}
+.portfolio {
+  text-decoration: none;
+  color: black;
+}
+.portfolioBtn {
+  background-color: #cdf4df;
+  border: 1px solid #c0c0c0;
 }
